@@ -129,7 +129,7 @@ const Workspace: React.FC = () => {
     }
 
     // ⚠️ PASTE YOUR NGROK URL HERE ⚠️
-    const BACKEND_URL = "https://tubulously-nonelucidating-sheena.ngrok-free.dev/generate-mesh/"; 
+    const BACKEND_URL = "https://your-ngrok-link/generate-mesh/"; 
 
     if (BACKEND_URL.includes("your-ngrok-url-here")) {
         setError("Please update the BACKEND_URL in components/Workspace.tsx");
